@@ -34,11 +34,11 @@ public class Main {
         int age2 = 18;
         if(age2 >= 2 && age2 <= 6){
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в детский сад.\n");
-        }if(age2 >= 7 && age2 <= 17){
+        }else if(age2 >= 7 && age2 <= 17){
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в школу.\n");
-        }if(age2 >= 18 && age2 <= 24){
+        }else if(age2 >= 18 && age2 <= 24){
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в университет.\n");
-        }if(age2 > 24){
+        }else if(age2 > 24){
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить на работу.\n");
         }
 
@@ -47,7 +47,7 @@ public class Main {
         int age3 = 14;
         if(age3 < 5){
             System.out.println("Если возраст ребенка равен " + age3 + ", то ему нельзя кататься на аттракционе.\n");
-        }if(age3 >= 5 && age3 < 14){
+        }else if(age3 >= 5 && age3 < 14){
             System.out.println("Если возраст ребенка равен " + age3 + ", то ему можно кататься на аттракционе в сопровождении взрослого.\n");
         }else{
             System.out.println("Если возраст ребенка равен " + age3 + ", то ему можно кататься на аттракционе без сопровождения взрослого.\n");
@@ -58,7 +58,7 @@ public class Main {
         int placesAreOccupied = 81;
         if(placesAreOccupied < 60){
             System.out.println("Если в вагоне занято " + placesAreOccupied + " мест, то в вагоне есть свободное сидячее место.\n");
-        }if(placesAreOccupied >= 60 && placesAreOccupied < 102){
+        }else if(placesAreOccupied >= 60 && placesAreOccupied < 102){
             System.out.println("Если в вагоне занято " + placesAreOccupied + " мест, то в вагоне есть свободное стоячее место.\n");
         }else{
             System.out.println("Если в вагоне занято " + placesAreOccupied + " мест, то вагон уже полностью забит.\n");
@@ -71,7 +71,7 @@ public class Main {
         int three = 1;
         if(one > two && one > three){
             System.out.println("Наибольшее число " + one + " оно записано в переменной one.");
-        }if(two > one && two > three){
+        }else if(two > one && two > three){
             System.out.println("Наибольшее число " + two + " оно записано в переменной two.");
         }else{
             System.out.println("Наибольшее число " + three + " оно записано в переменной three.");
