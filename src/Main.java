@@ -31,7 +31,7 @@ public class Main {
 
         System.out.println("Задание 4\n");
 
-        int age2 = 21;
+        int age2 = 18;
         if(age2 >= 2 && age2 <= 6){
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в детский сад.\n");
         }if(age2 >= 7 && age2 <= 17){
@@ -44,10 +44,10 @@ public class Main {
 
         System.out.println("Задание 5\n");
 
-        int age3 = 9;
+        int age3 = 14;
         if(age3 < 5){
             System.out.println("Если возраст ребенка равен " + age3 + ", то ему нельзя кататься на аттракционе.\n");
-        }if(age3 >=5 && age3 < 14){
+        }if(age3 >= 5 && age3 < 14){
             System.out.println("Если возраст ребенка равен " + age3 + ", то ему можно кататься на аттракционе в сопровождении взрослого.\n");
         }else{
             System.out.println("Если возраст ребенка равен " + age3 + ", то ему можно кататься на аттракционе без сопровождения взрослого.\n");
@@ -58,7 +58,7 @@ public class Main {
         int placesAreOccupied = 81;
         if(placesAreOccupied < 60){
             System.out.println("Если в вагоне занято " + placesAreOccupied + " мест, то в вагоне есть свободное сидячее место.\n");
-        }if(placesAreOccupied>=60 && placesAreOccupied<102){
+        }if(placesAreOccupied >= 60 && placesAreOccupied < 102){
             System.out.println("Если в вагоне занято " + placesAreOccupied + " мест, то в вагоне есть свободное стоячее место.\n");
         }else{
             System.out.println("Если в вагоне занято " + placesAreOccupied + " мест, то вагон уже полностью забит.\n");
